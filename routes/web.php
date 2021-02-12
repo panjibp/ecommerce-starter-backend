@@ -33,4 +33,5 @@ Route::resource('products', ProductController::class);
 Route::resource('product-galleries', ProductGalleryController::class);
 
 Route::get('transactions/{id}/set-status', [TransactionController::class, 'setStatus'])->name('transactions.status');
+
 Route::resource('transactions', TransactionController::class);
