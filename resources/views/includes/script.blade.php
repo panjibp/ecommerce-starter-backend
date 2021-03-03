@@ -36,6 +36,7 @@
             } );
 </script>
 
+<!-- Modal -->
 <script>
     jQuery(document).ready(function($) {
         $('#mymodal').on('show.bs.modal', function(e) {

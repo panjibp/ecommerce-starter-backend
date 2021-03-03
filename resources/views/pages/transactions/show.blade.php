@@ -17,7 +17,7 @@
     </tr>
     <tr>
         <th>Total Transaksi</th>
-        <td>{{ $item->transaction_total }}</td>
+        <td>Rp{{ $item->transaction_total }}</td>
     </tr>
     <tr>
         <th>Status Transaksi</th>
@@ -36,7 +36,7 @@
                     <tr>
                         <td>{{ $detail->product->name }}</td>
                         <td>{{ $detail->product->type }}</td>
-                        <td>${{ $detail->product->price }}</td>
+                        <td>Rp{{ $detail->product->price }}</td>
                     </tr>
                 @endforeach
             </table>
